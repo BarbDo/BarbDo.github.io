@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendelés</title>
+    <link rel="stylesheet" href="Rendelés.css">
+</head>
+<body>
+    <form>
+        <h1>Megrendelőlap</h1>
+        <fieldset> 
+            <legend> Személyes adatok </legend>
+    <div>
+        <label for id="name">Név*</label>
+        <input id="name" name="name" type="text" required>
+    </div>
+    <div>
+        <label for id="e-mail">E-mail*</label>
+        <input id="e-mail" name="e-mail" type="text" required>
+    </div>
+    <div>
+        <label for id="address">Cím*</label>
+        <input id="address" name="address" type="text" required>
+    </div>
+    <div>
+        <label for textarea>Megjegyzés</label>
+        <textarea id="comment" name="comment" type="text" rows="5"></textarea>
+    </div>
+
+</fieldset>
+
+<fieldset>
+
+<legend> Termék adatai</legend>
+    <div class="addition">
+        <span>Extra feltét</span>
+    </div> 
+    <div>
+        <input checked id="nothing" name="extra" type="radio">
+        <label>Feltét1</label>
+    </div>
+    <div>
+        <input checked id="cheese" name="extra" type="radio">
+        <label>Feltét2</label>
+    </div>
+    <div>
+
+        <input checked id="double-cheese" name="extra" type="radio">
+        <label>Feltét3</label>
+        
+    </div>
+    <div>
+        <input checked id="tomato" name="extra" type="radio">
+        <label>Feltét4</label>
+        
+    </div>
+    <div>
+        <input checked id="onion" name="extra" type="radio">
+        <label>Feltét5</label>
+    </div>
+    <div>
+        <label> Szósz</label>
+    </div>
+    <div>
+        <label> Termék mennyisége</label>
+    </div>
+</fieldset>
+<div class="form-group">
+    
+    <button class="submit-btn">Rendelés leadása</button>
+</div>
+
+</form>
+
+</body>
+</html>

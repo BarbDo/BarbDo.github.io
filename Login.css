@@ -1,0 +1,19 @@
+body {
+    background-image: url("Images/Márvány.PNG");
+    background-size: 200px;
+    background-repeat: repeat;
+}
+.login-div {
+    color:#268149;
+    padding: 15px; 
+    background-color: #f8f8ea;
+    width: 400px;
+  }
+  .login-div input[type="E-mail"]{
+      border-style: groove;
+  }
+  .login-div input[type="password"]{
+    border-style: dashed;
+  
+  }
+  
